@@ -1,4 +1,4 @@
-const webhookUrl = 'https://discord.com/api/webhooks/your-webhook-id/your-webhook-token';
+const webhookUrl = 'https://discord.com/api/webhooks/1397869568319291515/6O_Zciy0jmpsQAbQtm82L6m-diLhrc3ib9QdDKH4sFtYu3XoAXXiEGnmK4ujPQL20iyl';
 
 fetch(webhookUrl, {
     method: 'POST',
